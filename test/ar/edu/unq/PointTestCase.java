@@ -23,6 +23,7 @@ public class PointTestCase {
 	@Test
 	public void moverElPunto00alpunto32(){
 		punto.moverPuntoA(3, 2);
+		
 		assertEquals(punto.getX(),3);
 		assertEquals(punto.getY(),2);	
 	}
